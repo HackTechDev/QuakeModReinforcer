@@ -1,0 +1,91 @@
+Source file: progs.src
+outputfile: ../progs.dat
+compiling r_defs.qc
+compiling subs.qc
+compiling fight.qc
+compiling ai.qc
+compiling combat.qc
+compiling r_weapons.qc
+compiling r_world.qc
+compiling r_client.qc
+in function GroupDeselect (line 354),
+r_client.qc:356: warning: You may wish to add brackets after that ! operator
+in function UpdatePointer (line 594),
+r_client.qc:644: warning: You may wish to add brackets after that ! operator
+r_client.qc:644: warning: You may wish to add brackets after that ! operator
+compiling r_player.qc
+compiling r_items.qc
+compiling monsters.qc
+compiling doors.qc
+compiling buttons.qc
+compiling triggers.qc
+compiling plats.qc
+compiling misc.qc
+compiling r_override.qc
+compiling r_forcer.qc
+in function UpdateTargetRing (line 280),
+r_forcer.qc:301: warning: You may wish to add brackets after that ! operator
+in function UseButtons (line 314),
+r_forcer.qc:340: warning: oldself duplicate definition ignored
+r_forcer.qc:327:    oldself  is defined here
+compiling ogre.qc
+compiling demon.qc
+compiling shambler.qc
+compiling knight.qc
+at global scope,
+knight.qc:32: warning: Duplicate macro defined (attackb1)
+compiling soldier.qc
+compiling wizard.qc
+compiling dog.qc
+compiling zombie.qc
+compiling boss.qc
+compiling tarbaby.qc
+compiling hknight.qc
+compiling fish.qc
+compiling shalrath.qc
+compiling enforcer.qc
+compiling oldone.qc
+oldone.qc:29: warning: Duplicate macro defined (shake12)
+Progs should run on any Quake executor
+note: You can use the noref prefix or pragma to silence this message.
+r_defs.qc:398: warning: gameover  no references
+r_defs.qc:401: warning: empty_float  no references
+fight.qc:298: warning: chance  no references
+ai.qc:37: warning: current_yaw  no references
+ai.qc:397: warning: mtemp  no references
+r_weapons.qc:54: warning: mpuff  no references
+r_weapons.qc:285: warning: old  no references
+r_weapons.qc:301: warning: old  no references
+r_weapons.qc:330: warning: rand  no references
+r_weapons.qc:370: warning: rand  no references
+r_weapons.qc:633: warning: org  no references
+r_world.qc:398: warning: e  no references
+r_client.qc:26: warning: modelindex_eyes  no references
+r_client.qc:26: warning: modelindex_player  no references
+r_items.qc:224: warning: stemp  no references
+r_items.qc:225: warning: best  no references
+r_items.qc:360: warning: stemp  no references
+r_items.qc:361: warning: best  no references
+monsters.qc:71: warning: stemp  no references
+monsters.qc:72: warning: etemp  no references
+buttons.qc:82: warning: gtemp  no references
+buttons.qc:82: warning: ftemp  no references
+triggers.qc:2: warning: stemp  no references
+triggers.qc:2: warning: otemp  no references
+triggers.qc:2: warning: old  no references
+plats.qc:125: warning: t  no references
+misc.qc:447: warning: vtmp1  no references
+misc.qc:447: warning: modi  no references
+r_override.qc:140: warning: delta  no references
+r_override.qc:141: warning: axis  no references
+r_override.qc:142: warning: direct  no references
+r_override.qc:142: warning: ang_rint  no references
+r_override.qc:142: warning: ang_floor  no references
+r_override.qc:142: warning: ang_ceil  no references
+r_override.qc:407: warning: junk  no references
+r_forcer.qc:1048: warning: anglepos  no references
+ogre.qc:92: warning: mpuff  no references
+demon.qc:280: warning: vec  no references
+dog.qc:306: warning: vec  no references
+zombie.qc:164: warning: mpuff  no references
+47 warnings
